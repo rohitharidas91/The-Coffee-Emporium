@@ -1,0 +1,77 @@
+body{
+  font-family: 'Comfortaa', cursive;
+  background-color: #E3C19C;
+  margin:0;
+  color: #2F1E12;
+}
+
+#mainNavbar{
+  padding: 20px auto;
+}
+
+#mainNavbar .nav-item a,#mainNavbar .navbar-brand{
+  font-size: 1.5rem;
+  color: #2F1E12;
+  transition: 500ms;
+  font-weight: bold;
+  text-shadow: 2px 1px 4px #888;
+}
+
+#mainNavbar a:hover{
+  color: brown;
+  transition: 500ms;
+}
+
+nav.fixed-top {
+  transition: background-color 500ms linear;
+
+}
+
+.scrolled{
+  background-color: #FFF8ED;
+  transition: background-color 500ms linear;
+  color: white;
+}
+
+#heading{
+  padding-top: 80px;
+}
+#heading h1{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
+#content{
+  text-align: center;
+}
+
+.coffee-icon{
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+#content h3{
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#footer{
+  background-color: #272B31;
+  padding: 5px;
+  text-align: center;
+  border-top: 3px solid black;
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+}
+#footer li{
+  display: inline;
+  padding: 1rem 5%;
+}
+
+#footer a{
+  color: white;
+  text-decoration: none;
+}
